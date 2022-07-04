@@ -1,0 +1,6 @@
+    # an example of docker compose
+    version: '2'
+    services:
+      my-service-name:
+        image: bf1942/image-name:v1.0.0
+        restart: always
